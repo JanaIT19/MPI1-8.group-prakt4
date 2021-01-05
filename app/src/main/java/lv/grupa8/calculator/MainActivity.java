@@ -291,7 +291,7 @@ public class MainActivity extends AppCompatActivity {
                     sk1 = Double.parseDouble(number1);
                     activities = result.getText().toString();
                     sk2 = Double.parseDouble(activities);
-                    sk1 = sk1 / sk2;
+                    sk1 = sk1 * sk2;
                     number1 = String.valueOf(sk1);
                     number1 = fmt(sk1);
                     result.setText(number1);
@@ -312,7 +312,7 @@ public class MainActivity extends AppCompatActivity {
                     sk1 = Double.parseDouble(number1);
                     activities = result.getText().toString();
                     sk2 = Double.parseDouble(activities);
-                    sk1 = sk1 / sk2;
+                    sk1 = sk1 + sk2;
                     number1 = String.valueOf(sk1);
                     number1 = fmt(sk1);
                     result.setText(number1);
@@ -333,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
                     sk1 = Double.parseDouble(number1);
                     activities = result.getText().toString();
                     sk2 = Double.parseDouble(activities);
-                    sk1 = sk1 / sk2;
+                    sk1 = sk1 - sk2;
                     number1 = String.valueOf(sk1);
                     number1 = fmt(sk1);
                     result.setText(number1);
